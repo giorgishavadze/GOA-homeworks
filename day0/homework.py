@@ -138,6 +138,4 @@ left(90)
 forward(50)
 backward(50)
 
-
-
 exitonclick()
