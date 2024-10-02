@@ -1,0 +1,45 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+    border: 5px solid red;
+}
+.child {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border: 5px solid green;
+}
+/*
+    flex-direction არის კუთვნილება რომლიტაც ვაკონტროლებთ რომელი ღერძი იყოს მთავარი.
+    row - x ღერძი
+    column - y ღერძი
+    მთავარი ღერძი არის ის ღერძი რომელზეც არის განლაგებული ელემენტები
+    გადამკვეთი ღერძი არის ის ღერძი რომელიც კვეთს მთავარ ღერძს
+    
+    justify-content - აკონტროლებს მთავარ ღერძის კუთვნილებებს
+    align-items - აკონტროლებს გადამკვეთი ღერძის კორდინატებს
+
+    justify-content მნიშვნელობები:
+    
+    flex-start - გადაიტანს მთავარ ღერძის დასაწყისში ყველა ელემენტს
+    flex-end - გადაიტანს მთავარ ღერძის ბოლოში ყველა ელემენტს
+    center - გადაიტანს მთავარ ღერძის ცენტრში ყველა ელემენტს
+    space-between - გააკეთებს დაშორებებს ყველა ელემენტს შორის
+    space-around - გააკეეთებს დაშორებებს ყველა ელემენტსა და კიდეებს შორის
+    space-evenlyგააკეთებს ლუჭ დაშორებებს ყველა ელემენტებს შორის და კიდეებს შორის
+
+    align-items მნიშვნელობები:
+
+    flex-start - ალაგებს კონტეინერის დასაწყისში
+    flex-end - ალაგებს კონტეინერის ბოლოშიში
+    center - ალაგებს კონტეინერის ცენტრში
+*/
