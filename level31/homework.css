@@ -1,0 +1,20 @@
+.parent { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    background-color: aqua;
+    border: cyan;
+}
+#left {
+    background-color: white;
+    width: 900px;
+    height: 900px;
+    padding: 50px;
+}
+#right {
+    background-color: blueviolet;
+    width: 900px;
+    height: 900px;
+    padding: 50px;
+}
