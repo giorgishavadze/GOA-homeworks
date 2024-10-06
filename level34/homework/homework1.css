@@ -1,0 +1,12 @@
+.hello {
+
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    animation: hello 3s infinite;
+    animation-delay: 5s;
+}
+@keyframes hello{
+    50% {scale:4; background-color: red;}
+}
+/*it will work if you touch your mouse*/
