@@ -1,0 +1,41 @@
+#dd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    padding: 100px;
+}
+#hello {
+    background-color: hsl(244, 38%, 16%);
+    padding: 50px;
+    height: 346px;
+}
+.ee {
+    color: white;
+    display: inline-block;
+}
+#kk {
+    color: blueviolet;
+}
+#xx {
+    width: 550px;
+    height: 446px;
+}
+#ss {
+    width: 150px;
+}
+#sss {
+    width: 150px;
+}
+#ssss {
+    width: 150px;
+}
+#ww {
+    width: 150px;
+}
+#www {
+    width: 150px;
+}
+#wwww {
+    width: 150px;
+}
