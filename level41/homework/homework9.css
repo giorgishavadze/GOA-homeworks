@@ -1,0 +1,6 @@
+#hiddenElement {
+    display: none;
+    background-color: red;
+    padding: 20px;
+    margin-top: 10px;
+}
