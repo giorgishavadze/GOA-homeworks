@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my website</title>
+        <link rel="stylesheet" href="homework.css">
+    </head>
+    <body>
+        <h1>changing element</h1>
+    
+        <div id="element1" class="element">first</div>
+        <div id="element2" class="element" style="background-color: blue;">second element</div>
+        <div id="element3" class="element" style="background-color: red;">third element</div>
+        <div id="element4" class="element">forth element</div>
+        <div id="element5" class="element"><!--fifth element-->
+            <div id="nested1" style="display: inline-block; width: 100px; height: 100px;">left element</div>
+            <div id="nested2" style="display: inline-block; width: 100px; height: 100px;">right element</div>
+        </div>
+
+        <button onclick="changeElements()">change elements</button>
+        <button onclick="resetElements()">reset element</button>
+
+        <script src="homework.js"></script>
+    </body>
+</html>
