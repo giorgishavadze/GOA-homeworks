@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+</head>
+<body>
+    <h1>სამსახურის განაცხადი</h1>
+
+    <label for="age">შეიყვანეთ თქვენი ასაკი:</label>
+    <input type="number" id="age" placeholder="მაგ. 30"><br><br>
+
+    <label for="experience">შეიყვანეთ გამოცდილების წლები:</label>
+    <input type="number" id="experience" placeholder="მაგ. 6"><br><br>
+
+    <button id="submit">შედეგის ნახვა</button>
+
+    <p id="result"></p>
+
+    <script>
+        const ageInput = document.getElementById('age')
+        const experienceInput = document.getElementById('experience')
+        const submit = document.getElementById('submit')
+        const resultOutput = document.getElementById('result')
+
+        submit.addEventListener('click', () => {
+            const age = parseInt(ageInput.value, 10)
+            const experience = parseInt(experienceInput.value, 10)
+
+            if (age > 25 && experience > 5) {
+                resultOutput.textContent = "თქვენ მიღებული ხართ სამსახურში!"
+                resultOutput.style.color = "green"
+            } else {
+                resultOutput.textContent = "სამწუხაროდ, თქვენ არ ხართ მიღებული სამსახურში."
+                resultOutput.style.color = "red"
+            }
+        })
+    </script>
+</body>
+</html>
